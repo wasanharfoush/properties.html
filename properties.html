@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>properties html
+        </title>
+        <script src="myfunction.js"></script>
+    </head>
+    <body>
+        <div class="bayan">
+            <button onclick="window.location.href='home.html.html'">HOME</button>
+            <button onclick="window.location.href='AbutUs.html'">ABOUT US</button>
+         </div>
+        <div class="container">
+            <h2>قائمة العقارات</h2>
+            <table border>
+                <thead>
+                    <tr>
+                        <th> المدينة</th>
+                        <th>التفاصيل</th>
+                        <th>الإيجار الشهري</th>
+                        <th>إظهار التفاصيل</th>
+                        <th>اختيار</th>
+                    </tr>
+                </thead>
+                <tbody id="property-details">
+                    <tr>
+                        <td>دمشق</td>
+                        <td>شقة مكسية مساحة 70م</td>
+                        <td>700,000</td>
+                        <td><button class="show-details-btn" data-index="0">تفاصيل</button></td>
+                        <td><label for="property-radio"> </label>
+                        <input type="radio" name="property-choice" class="property-radio" data-index="0"></td>
+                    </tr>
+                    <tr class="expanded-details">
+                        <td colspan="10">
+                        <div class="details-content" id="details-content-0">
+                        <p>المنطقة:ضاحية قدسيا</p>
+                        <p>متوفر كراج</p>
+                        <p>الطابق الرابع</p>
+                        <p>الملكية: طابو</p>
+                        <p>بلكون مساحة 5متر</p>
+                        <p>غير مفروشة</p>
+                        <div class="images-container" id="images-container-0"> <img src="صور ويب/imge 3.jpeg">
+                        <img src="صور ويب\image 4.jpeg">
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>اللاذقية</td>
+                        <td>شقة فارغة مساحة 100م</td>
+                        <td>1,000,000</td> 
+                        <td><button class="show-details-btn" data-index="1">تفاصيل</button></td>
+                        <td><label for="property-radio"> </label>
+                        <input type="radio" name="property-choice" class="property-radio" data-index="1"></td>
+                    </tr>
+                    <tr class="expanded-details">
+                        <td colspan="10">
+                        <div class="details-content" id="details-content-1">
+                            <p>المنطقة:جبلة</p>
+                            <p>متوفر كراج وحديقة</p>
+                            <p>الطابق الارضي</p>
+                            <p>الملكية طابو</p>
+                            <p>حديقة مساحة 50 متر</p>
+                            <p>مفروشة</p>
+                            <div class="wimages-container" id="images-container-1"></div><img src="صور ويب\image 1.jpeg" id="y">
+                            <img src="صور ويب\image 2.jpeg" id="y"> 
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>طرطوس</td>
+                        <td>دكانة مساحة 50متر</td>
+                        <td>400,000</td>
+                        <td><button class="show-details-btn" data-index="2">تفاصيل</button></td>
+                        <td><label for="property-radio"> </label>
+                        <input type="radio" name="property-choice" class="property-radio" data-index="2"></td>
+                    </tr>
+                    <tr class="expanded-details">
+                        <td colspan="10">
+                        <div class="details-content" id="details-content-2"><p>المنطقة:المشروع السادس</p>
+                            <p>تجهيزات:رفوف,عداد,مخزن مساحة 2 متر</p>
+                            <p>الملكية طابو</p>
+                            <p>الموقع على الشارع الرئيسي</p>
+                            <div class="images-container" id="images-container-2"><img src="صور ويب\image 5.jpeg"><img src="صور ويب\image 6.jpeg"></div>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>حماة</td>
+                        <td>شقة فارغة مساحة 70متر</td>
+                        <td>400,000</td>
+                        <td><button class="show-details-btn" data-index="3">تفاصيل</button></td>
+                        <td><label for="property-radio"> </label>
+                        <input type="radio" name="property-choice" class="property-radio" data-index="3"></td>
+                    </tr>
+                    <tr class="expanded-details">
+                        <td colspan="10">
+                        <div class="details-content" id="details-content-3">
+                            <p>المنطقة:شارع غرناطة</p>
+                            <p>بلكون مساحة 5 متر</p>
+                            <p>قريب على مشفى ومدرسة والمتحف الوطني</p>
+                            <p>الطابق الخامس</p>
+                            <p>غير مكسية</p>
+                            <div class="images-container" id="images-container-3"><img src="صور ويب\image 7.jpeg"><img src="صور ويب/image 8.jpeg"></div>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>دمشق</td>
+                        <td>شقة سوبر ديلوكس مساحة 110متر</td>
+                        <td>1,700,000</td>
+                        <td><button class="show-details-btn" data-index="4">تفاصيل</button></td>
+                        <td><label for="property-radio"> </label>
+                        <input type="radio" name="property-choice" class="property-radio" data-index="4"></td>
+                    </tr><tr class="expanded-details">
+                        <td colspan="10">
+                        <div class="details-content" id="details-content-4">
+                            <p>المنطقة:كفرسوسة</p>
+                            <p>الطابق السابع</p>
+                            <p>بلكون مساحة 4 متر</p>
+                            <p>بجانب مول كفرسوسة</p>
+                            <p>مفروشة</p>
+                            <div class="images-container" id="images-container-4"><img src="صور ويب\image 11.jpeg"><img src="صور ويب\image 10.jpeg"><img src="صور ويب/image 9.jpeg"></div>
+                        </div>
+                        </td>
+                    </tr><tr>
+                        <td>ريف دمشق </td>
+                        <td>دكانة مساحة 60م</td>
+                        <td>250,000</td>
+                        <td><button class="show-details-btn" data-index="5">تفاصيل</button></td>
+                        <td><label for="property-radio"> </label>
+                        <input type="radio" name="property-choice" class="property-radio" data-index="5"></td>
+                    </tr>
+                    <tr class="expanded-details">
+                        <td colspan="10">
+                        <div class="details-content" id="details-content-5">
+                            <p>المنظقة: التل</p>
+                            <p>قريب من الشارع الرئيسي</p>
+                            <p>مخزن مساحة 15متر</p>
+                            <p>مجهز ببضاعة بقيمة 10,000,000</p>
+                            <p>يوجد براد 10 قدم</p>
+                            <div class="images-container" id="images-container-5"><img src="صور ويب/image 13.jpeg"><img src="صور ويب\image 12.jpeg"></div>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>السويداء</td><td>شقة مكسية مساحة 150م</td>
+                        <td>1,200,000</td>
+                        <td><button class="show-details-btn" data-index="6">تفاصيل</button></td>
+                        <td><label for="property-radio"> </label>
+                        <input type="radio" name="property-choice" class="property-radio" data-index="6"></td>
+                    </tr>
+                    <tr class="expanded-details">
+                        <td colspan="10">
+                        <div class="details-content" id="details-content-6">
+                            <p>المنطقة:طريق قنوات</p>
+                            <p>الطابق الثاني</p>
+                            <p>بلكون مساحة 7متر</p>
+                            <p>بجانب مدرسة</p>
+                            <p>ملكية طابو</p>
+                            <p>يوجد كراج</p>
+                            <div class="images-container" id="images-container-6"><img src="صور ويب\image 14.jpeg"><img src="صور ويب\image 15.jpeg"></div>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>طرطوس</td>
+                        <td>شقة سوبر ديلوكس مساحة 80 متر</td>
+                        <td>1,500,000</td>
+                        <td><button class="show-details-btn" data-index="7">تفاصيل</button></td>
+                        <td><label for="property-radio"> </label>
+                        <input type="radio" name="property-choice" class="property-radio" data-index="7"></td>
+                    </tr>
+                    <tr class="expanded-details">
+                        <td colspan="10">
+                        <div< class="details-content" id="details-content-7">
+                            <p>المنطقة:المينة</p>
+                            <p>الطابق الخامس</p>
+                            <p>اطلالة على البحر</p>
+                            <p>بلكون مساحة 2 متر</p>
+                            <p>يوجد كراج</p>
+                            <div class="images-container" id="images-container-7"><img src="صور ويب\image 16.jpeg"><img src="صور ويب\image 17.jpeg"><img src="صور ويب\image 18.jpeg">
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>حلب</td>
+                        <td>شقة مكسية مساحة 150متر</td>
+                        <td>1,300,000</td>
+                        <td><button class="show-details-btn" data-index="8">تفاصيل</button></td>
+                        <td><label for="property-radio"> </label>
+                        <input type="radio" name="property-choice" class="property-radio" data-index="8"></td>
+                    </tr>
+                    <tr class="expanded-details">
+                        <td colspan="10">
+                        <div class="details-content" id="details-content-8">
+                            <p>المنطقة:حلب اقديمة</p>
+                            <p>طابق ثاني</p>
+                            <p>بالقرب من قلعة حلب</p>
+                            <p>يوجد كراج لسيارة واحدة للشقة</p>
+                            <p>غير مفروشة</p>
+                            <p>موجود براد وغسالة</p>
+                            <div class="images-container" id="images-container-8"> <img src="صور ويب\image 19.jpeg"><img src="صور ويب\image 20.jpeg"></div>
+                        </div>
+                        </td>>
+                    </tr>   
+                    <tr>
+                        <td>ريف دمشق</td>
+                        <td>شقة مكسية مساحة 70 متر</td>
+                        <td>900,000</td>
+                        <td><button class="show-details-btn" data-index="9">تفاصيل</button></td>
+                        <td><label for="property-radio"> </label>
+                        <input type="radio" name="property-choice" class="property-radio" data-index="9"></td>
+                    </tr>
+                    <tr class="expanded-details">
+                        <td colspan="10">
+                            <div class="details-content" id="details-content-9">
+                                <p>المنطقة:حرستا</p>
+                                <p>طابق رابع</p>
+                                <p>مفروشة</p>
+                                <p>موجود طاقة بديلة</p>
+                                <p>موجود كراج لسيارتين</p>
+                                <div class="images-container" id="images-container-8"> <img src="صور ويب\image 21.jpeg"><img src="صور ويب\image 22.jpeg"></div>
+                            </div>
+                            </td>
+                        </tr>   
+    
+                    </tbody>
+                </table>
+        
+                <div id="formContainer">
+                    <form id="userDataForm">
+                        <div>
+                            <label for="username">أسم المستخدم:</label>
+                            <input type="text" id="username" name="username" placeholder="أدخل اسمك بالعربية" required="">
+                        </div>
+                        <div>
+                            <label for="nationalId">الرقم الوطني:</label>
+                            <input type="text" id="nationalId" name="nationalId" placeholder="رقم الهوية" required="" minlength="11" maxlength="11">
+                        </div>
+                        <div>
+                            <label for="dob">تاريخ الميلاد:</label>
+                            <input type="text" id="dob" name="dob" placeholder="dd-mm-yyyy" pattern="\d{2}-\d{2}-\{4}" required="">
+                        </div>
+                        <div>
+                            <label for="phoneNumber">رقم الموبايل:</label>
+                            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="09XXXXXXXX" pattern="09\d{8}" required="">
+                        </div>
+                        <div>
+                            <label for="email">البريد الإلكتروني:</label>
+                            <input type="email" id="email" name="email" placeholder="example@example.com" required="">
+                        </div>
+                        <button type="submit">إرسال</button>
+                        <button type="button" onclick="cancelForm()">إلغاء</button>
+                      
+                    </form>
+                    
+    
+                </div>
+        
+                <center>
+                    <button class="BU" onclick="showForm()">متابعة</button>
+                  </center>
+                  
+        
+                   </div>
+    
+                    
+                      </html>
+                       
